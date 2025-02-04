@@ -96,8 +96,6 @@ header {
   position: relative;
   touch-action: manipulation;
   transition: box-shadow .2s, -ms-transform .1s, -webkit-transform .1s, transform .1s;
-  user-select: none;
-  -webkit-user-select: none;
   width: auto;
 }
 
@@ -189,8 +187,7 @@ header {
   background: transparent;
   position: absolute;
   height: 20px;
-  background-color: rgb(255, 255, 255, 0.2);
-  backdrop-filter: blur(2px);
+  background-color: rgb(255, 255, 255, 0.1);
   border-radius: 10px;
   animation-name: yur;
   animation-direction: alternate;

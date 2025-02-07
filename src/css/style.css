@@ -340,6 +340,10 @@ header {
   box-shadow: 0 0 .25rem #ffdd0069, -.125rem -.125rem 1rem rgba(242, 255, 0, 0.5), .125rem .125rem 1rem rgba(210, 201, 30, 0.5);
 }
 
+.section-1 {
+  margin-bottom: 100px;
+}
+
 .section-1 .text {
   display: flex;
   flex-direction: column;
@@ -359,5 +363,70 @@ header {
   font-weight: 500;
   font-size: 18px;
   color: #949494;
-  width: 90%  ;
+  width: 90%;
+}
+
+.section-2 h1 {
+  font-family: "Syne", serif;
+  font-weight: 700;
+  font-size: 72px;
+  color: #FFDB00;
+  text-align: center;
+}
+
+/* Home uchun testimonials */
+
+.testimonial-container {
+  position: relative;
+  width: 100%;
+}
+
+.testimonials-icon {
+  position: absolute;
+  right: 0;
+  top: -50px;
+}
+
+.testimonial-container .left-icon {
+  position: absolute;
+  bottom: 0;
+  left: 0px;
+}
+
+.testimonial-container .right-icon {
+  position: absolute;
+  right: 0px;
+  bottom: 0;  
+}
+
+.testimonial-container .absol {
+  left: 0;
+}
+
+.section-3 {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-between;
+  padding: 100px 0;
+}
+
+.section-3 h2 {
+  font-family: "Syne", serif;
+  color: #fff;
+  font-weight: 700;
+  font-size: 64px;
+}
+
+.section-3 p {
+  font-weight: 400;
+  font-size: 18px;
+  color: #949494;
+  max-width: 878px;
+}
+
+.section-3 h4 {
+  font-weight: 700;
+font-size: 24px;
+color: #fff;
 }

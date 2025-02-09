@@ -18,18 +18,23 @@ function renderTestimonials(data) {
   container.innerHTML = '';
 
   data.forEach((item) => {
-      const testimonialDiv = document.createElement('div');
+    const testimonialDiv = document.createElement('div');
 
-      let elText = document.createElement('p')
-      elText.textContent = item.text
+    let elText = document.createElement('p')
+    elText.textContent = item.text
 
-      let elAuthor = document.createElement('h4')
-      elAuthor.textContent = item.author
+    let elAuthor = document.createElement('h4')
+    elAuthor.textContent = item.author
 
-      container.appendChild(testimonialDiv);
-      testimonialDiv.append(elText)
-      testimonialDiv.appendChild(elAuthor)
+    container.appendChild(testimonialDiv);
+    testimonialDiv.append(elText)
+    testimonialDiv.appendChild(elAuthor)
   });
 }
 
 renderTestimonials();
+
+
+let elYear = document.getElementById('yil');
+const date = new Date();
+elYear.textContent = date.getFullYear();

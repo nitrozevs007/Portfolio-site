@@ -20,3 +20,13 @@ const testimonials = [
     author: "Michael Johnson"
   }
 ];
+
+
+const Works = [
+  {
+    id: 1,
+    img: "",
+    name: "",
+    link: "",
+  }
+]

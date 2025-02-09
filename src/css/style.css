@@ -5,7 +5,8 @@
 }
 
 body {
-  background: #000;
+  position: relative;
+  background: #1a1a1a;
 }
 
 .container {
@@ -144,7 +145,6 @@ header {
 .hero {
   padding-bottom: 90px;
   margin-bottom: 90px;
-  border-bottom: 1px solid #fff;
   margin-top: 73px;
 }
 
@@ -396,7 +396,7 @@ header {
 .testimonial-container .right-icon {
   position: absolute;
   right: 0px;
-  bottom: 0;  
+  bottom: 0;
 }
 
 .testimonial-container .absol {
@@ -427,6 +427,103 @@ header {
 
 .section-3 h4 {
   font-weight: 700;
-font-size: 24px;
-color: #fff;
+  font-size: 24px;
+  color: #fff;
+}
+
+#footer {
+  background-color: #000;
+}
+
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  padding: 40px 0;
+}
+
+footer h4 {
+  font-weight: 700;
+  font-size: 24px;
+  text-align: center;
+  color: #FFDB00;
+  font-family: "Syne", serif;
+}
+
+footer .gmail {
+  color: white;
+  font-weight: 700;
+  font-size: 64px;
+  font-family: "Syne", serif;
+  text-align: center;
+  color: #fff;
+  transition: 3s;
+}
+
+footer a:hover {
+  border-bottom: 2px solid #fff;
+}
+
+footer .location {
+  font-family: "Syne", serif;
+  font-weight: 700;
+  font-size: 24px;
+  color: #fff;
+}
+
+footer .part-1 {
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+footer .part-1 .personal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.socials {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+#social {
+  color: white;
+}
+
+.line {
+  width: 100%;
+  background-color: white;
+  height: 1px;
+  position: absolute;
+  left: 0px;
+  top: 330px;
+}
+
+.line2 {
+  width: 100%;
+  background-color: white;
+  height: 1px;
+  position: absolute;
+  left: 0px;
+  bottom: 135px;
+}
+
+footer p {
+  margin: 30px 0;
+  margin-top: 60px;
+  font-weight: 700;
+  font-size: 24px;
+  text-align: center;
+  font-family: "Syne", serif;
+  color: #fff;
 }

@@ -90,15 +90,21 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
     works.forEach((works) => {
-      console.log(works)
 
       let elLi = document.createElement('li')
 
-      let workImg = document.createElement('img')
-      workImg.src = works.img
+      let workA = document.createElement('a')
+      workA.href = works.link
+      workA.target = "_blank"
+      workA.innerHTML = `
+      <div class="imgdiv">
+        <img src="${works.img}" alt="${works.name}" width="350" height="350">
+        <div class="border"></div>
+      </div>`
+
 
       elSitesContainer.append(elLi)
-      elLi.append(workImg)
+      elLi.appendChild(workA)
     })
 
 

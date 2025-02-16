@@ -22,7 +22,7 @@ const testimonials = [
 ];
 
 
-const Works = [
+const works = [
   {
     id: 1,
     img: "../assets/img/webify.png",

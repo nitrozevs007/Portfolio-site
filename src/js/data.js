@@ -25,8 +25,20 @@ const testimonials = [
 const Works = [
   {
     id: 1,
-    img: "",
-    name: "",
-    link: "",
+    img: "../assets/img/webify.png",
+    name: "Webify",
+    link: "https://webifytoxicdev.vercel.app",
+  },
+  {
+    id: 2,
+    img: "../assets/img/dates.png",
+    name: "Dates&Times",
+    link: "https://datestimes.vercel.app/",
+  },
+  {
+    id: 3,
+    img: "../assets/img/LasleyVPN.png",
+    name: "LasleyVPN",
+    link: "https://lasleyvpnmine.netlify.app/",
   }
 ]

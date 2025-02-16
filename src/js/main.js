@@ -17,15 +17,14 @@ const testimonialsContainer = document.getElementById('testimonials-container');
 const prevBtn = document.getElementById('prevBtn');
 const nextBtn = document.getElementById('nextBtn');
 
-// Initial index
+
 let currentIndex = 0;
 
-// Testimonial'larni ko'rsatish
+
 function displayTestimonial(index) {
-  // Testimonial'larni containerga qo'shish
+
   const testimonial = testimonials[index];
 
-  // Testimonial structure
   const testimonialContent = `
     <div class="testimonial-card">
       <p>${testimonial.text}</p>
@@ -33,7 +32,6 @@ function displayTestimonial(index) {
     </div>
   `;
 
-  // Testimonials containerga yangi testimonial qo'shish
   testimonialsContainer.innerHTML = `
     <img src="./src/assets/svg/body background.svg" class="absol" id="absol" alt="loght" width="517" height="273">
     <img src="./src/assets/svg/testimonials icon.svg" alt="testimonials icon" width="199" height="183" class="testimonials-icon">
@@ -44,7 +42,7 @@ function displayTestimonial(index) {
   `;
 }
 
-// Prev tugmasi bosilganda
+
 prevBtn.addEventListener('click', () => {
   if (currentIndex > 0) {
     currentIndex--;
@@ -52,26 +50,28 @@ prevBtn.addEventListener('click', () => {
   }
 });
 
-// Next tugmasi bosilganda
+
 nextBtn.addEventListener('click', () => {
   if (currentIndex < testimonials.length - 1) {
     currentIndex++;
-    displayTestimonial(currentIndex);
+    displayTestimonial(currentIndex);    
   }
 });
 
-// Avtomatik testimonial almashish (2 sekundda bir)
+
 function autoSwitchTestimonials() {
   setInterval(() => {
     if (currentIndex < testimonials.length - 1) {
       currentIndex++;
     } else {
-      currentIndex = 0; // Oxirgi testimonialga yetib borganda, birinchi testimonialga qaytish
+      currentIndex = 0;
     }
     displayTestimonial(currentIndex);
-  }, 2000); // 2 sekundda bir testimonial almashadi
+    console.log(currentIndex);
+    
+  }, 5000); // 5 sekundda bir testimonial almashadi
 }
 
-// Dastlabki testimonialni ko'rsatish va avtomatik almashish
+
 displayTestimonial(currentIndex);
 autoSwitchTestimonials();

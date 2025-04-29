@@ -25,7 +25,7 @@ const testimonials = [
 const works = [
   {
     id: 1,
-    img: new File([""], "../assets/img/webify.png"),
+    img: "chrome-extension://fdpohaocaechififmbbbbbknoalclacl/capture.html?id=2&url=https%3A%2F%2Fwebifytoxicdev.vercel.app%2F",
     name: "Webify",
     link: "https://webifytoxicdev.vercel.app",
   },

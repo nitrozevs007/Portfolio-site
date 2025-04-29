@@ -190,14 +190,28 @@ header {
 }
 
 .section-1 .sites li a .imgdiv {
+  width: 350px;
+  height: 350px;
   position: relative;
 }
 
-.section-1 .sites li a img {
+.section-1 .sites li a .imgdiv .imgdivin {
+  overflow: hidden;
   width: 350px;
   height: 350px;
-  object-fit: cover;
   border-radius: 16px;
+}
+
+.section-1 .sites li a img {
+  width: 100%;
+  height: auto;
+  transform: translateY(0%);
+  transition: all 5s ease;
+  border-radius: 16px;
+}
+
+.section-1 .sites li a img:hover {
+  transform: translateY(-60%);
 }
 
 .section-1 .sites li a h2 {
@@ -537,6 +551,12 @@ footer p {
   color: #fff;
 }
 
-@media (max-width: 768px) {
-  
+@media (max-width: 950px) {
+  footer {
+    padding: 20px;
+  }
+
+  footer .gmail {
+    font-size: 54px;
+  }
 }

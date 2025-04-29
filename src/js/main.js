@@ -1,4 +1,5 @@
 
+
 document.addEventListener("DOMContentLoaded", () => {
 
   document.addEventListener("DOMContentLoaded", function () {
@@ -107,10 +108,7 @@ document.addEventListener("DOMContentLoaded", () => {
       elLi.appendChild(workA)
     })
 
-
   }
 
-
 });
-
 

@@ -1,0 +1,79 @@
+.section-1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+h1 {
+  font-family: "Syne", serif;
+  font-weight: 700;
+  font-size: 72px;
+  color: #FFDB00;
+}
+
+.section-1 .login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  width: 575px;
+}
+
+label {
+  margin-bottom: 41px;
+  font-weight: 500;
+  font-size: 24px;
+  color: #fff;
+  font-family: "Rubik", serif;
+
+}
+
+input {
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid white;
+  background: transparent;
+  margin-bottom: 50px;
+  outline: none;
+
+  font-weight: 500;
+  font-size: 24px;
+  color: #fff;
+  font-family: "Rubik", serif;
+
+}
+
+input:active {
+  border-bottom: 2px solid white;
+}
+
+input:focus {
+  border-bottom: 2px solid white;
+}
+
+#send {
+  border-radius: 50px;
+  background: #fffb00;
+  padding: 11px 35px;
+  border: none;
+  font-family: "Rubik", serif;
+}
+
+.section-2 {
+  width: 100%;
+}
+
+.section-2 .text {
+  width: 100%;
+  padding: 100px 140px;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  align-items: center;
+}
+
+.text a {
+  font-weight: 700;
+  font-size: 24px;
+  text-align: center;
+  font-family: "Syne", serif;
+  color: #fff;
+}

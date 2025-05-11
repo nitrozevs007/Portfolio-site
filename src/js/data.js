@@ -22,23 +22,23 @@ const testimonials = [
 ];
 
 
-const works = [
-  {
-    id: 1,
-    img: "chrome-extension://fdpohaocaechififmbbbbbknoalclacl/capture.html?id=2&url=https%3A%2F%2Fwebifytoxicdev.vercel.app%2F",
-    name: "Webify",
-    link: "https://webifytoxicdev.vercel.app",
-  },
-  {
-    id: 2,
-    img: "../assets/img/dates.png",
-    name: "Dates&Times",
-    link: "https://datestimes.vercel.app/",
-  },
-  {
-    id: 3,
-    img: "../assets/img/LasleyVPN.png",
-    name: "LasleyVPN",
-    link: "https://lasleyvpnmine.netlify.app/",
-  }
-]
+// const works = [
+//   {
+//     id: 1,
+//     img: "chrome-extension://fdpohaocaechififmbbbbbknoalclacl/capture.html?id=2&url=https%3A%2F%2Fwebifytoxicdev.vercel.app%2F",
+//     name: "Webify",
+//     link: "https://webifytoxicdev.vercel.app",
+//   },
+//   {
+//     id: 2,
+//     img: "../assets/img/dates.png",
+//     name: "Dates&Times",
+//     link: "https://datestimes.vercel.app/",
+//   },
+//   {
+//     id: 3,
+//     img: "../assets/img/LasleyVPN.png",
+//     name: "LasleyVPN",
+//     link: "https://lasleyvpnmine.netlify.app/",
+//   }
+// ]
